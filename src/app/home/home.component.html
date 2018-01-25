@@ -1,0 +1,8 @@
+<p *ngIf="products">
+ {{products[0].Name}}
+</p>
+
+<ul>
+  <li *ngFor="let product of products">{{product.Name}} -- {{product.Description}}</li>
+</ul>
+
